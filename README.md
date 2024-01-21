@@ -1,62 +1,48 @@
-# wallabag
-
-![CI](https://github.com/wallabag/wallabag/workflows/CI/badge.svg)
-[![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/wallabag/wallabag)
-[![Donation Status](https://img.shields.io/liberapay/goal/wallabag.svg?logo=liberapay)](https://liberapay.com/wallabag/donate)
-[![Translation status](https://hosted.weblate.org/widgets/wallabag/-/svg-badge.svg)](https://hosted.weblate.org/engage/wallabag/?utm_source=widget)
-![License](https://img.shields.io/github/license/wallabag/wallabag)
-
-wallabag is a web application allowing you to save web pages for later reading.
-Click, save and read it when you want. It extracts content so that you won't be distracted by pop-ups and cie.
-
-You can install it on your own server, or you can create an account on [wallabag.it](https://wallabag.it).
-
-![wallabag](./.github/images/screenshot.png)
-
-* Website: [wallabag.org](https://wallabag.org)
-* Android app: [wallabag/android-app](https://github.com/wallabag/android-app)
-* iOS app: [wallabag/ios-app](https://github.com/wallabag/ios-app)
-* Browser extension: [wallabag/wallabagger](https://github.com/wallabag/wallabagger)
-* GNOME (Linux) app: [read-it-later](https://gitlab.gnome.org/World/read-it-later) (not maintained by this project)
-* All resources about wallabag ecosystem are listed here: https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem
-
-## Documentation
-
-The documentation is available at https://doc.wallabag.org.
-
-You can contribute to it through its dedicated repository, available here: https://github.com/wallabag/doc.
-
-## Installation
-
-Please read [the documentation to see the wallabag requirements](https://doc.wallabag.org/en/admin/installation/requirements.html).
-
-Then you can install wallabag by executing the following commands:
-
-```bash
-git clone https://github.com/wallabag/wallabag.git
-cd wallabag && make install
-```
-
-Now, [configure a virtual host](https://doc.wallabag.org/en/admin/installation/virtualhosts.html) to use your wallabag.
-
-### Other methods
-
-Refer to the [installation documentation](https://doc.wallabag.org/en/admin/installation/installation.html) for other installation methods.
-
-## Translation
-
-This project uses [Weblate](https://weblate.org/) for translation.
-
-Feel free to help us [translating wallabag](https://hosted.weblate.org/projects/wallabag/).
-
-## Contributing
-
-To learn more about developing wallabag, please refer to the [contribution guide](./.github/CONTRIBUTING.md).
-
-Content extraction relies on [Graby](https://github.com/j0k3r/graby), [php-readability](https://github.com/j0k3r/php-readability) and [ftr-site-config](https://github.com/fivefilters/ftr-site-config).
-
-## License
-Copyright © 2013-current Nicolas Lœuillet <nicolas@loeuillet.org>
-
-This work is free. You can redistribute it and/or modify it under the
-terms of the MIT License. See the [COPYING.md](./COPYING.md) file for more details.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-wallabag" class="anchor" aria-hidden="true" tabindex="-1" href="#wallabag"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">瓦拉巴格</font></font></h1>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/wallabag/wallabag/workflows/CI/badge.svg"><img src="https://github.com/wallabag/wallabag/workflows/CI/badge.svg" alt="CI" style="max-width: 100%;"></a>
+<a href="https://gitter.im/wallabag/wallabag" rel="nofollow"><img src="https://camo.githubusercontent.com/ef68dbd3614d387bdea85a2ed3e0753177e6741a90741f18e9b021a29932ff98/68747470733a2f2f6261646765732e6769747465722e696d2f67697474657248512f6769747465722e737667" alt="吉特" data-canonical-src="https://badges.gitter.im/gitterHQ/gitter.svg" style="max-width: 100%;"></a>
+<a href="https://liberapay.com/wallabag/donate" rel="nofollow"><img src="https://camo.githubusercontent.com/03a8bbaaca72ef87100db2d16bef744570cf070d2120038e972347984248bd3e/68747470733a2f2f696d672e736869656c64732e696f2f6c69626572617061792f676f616c2f77616c6c616261672e7376673f6c6f676f3d6c6962657261706179" alt="捐赠情况" data-canonical-src="https://img.shields.io/liberapay/goal/wallabag.svg?logo=liberapay" style="max-width: 100%;"></a>
+<a href="https://hosted.weblate.org/engage/wallabag/?utm_source=widget" rel="nofollow"><img src="https://camo.githubusercontent.com/b2ace31cd2a4f2c9899bf1badcd0ff7d8be39067ada1fc56152678ba600ad81d/68747470733a2f2f686f737465642e7765626c6174652e6f72672f776964676574732f77616c6c616261672f2d2f7376672d62616467652e737667" alt="翻译状态" data-canonical-src="https://hosted.weblate.org/widgets/wallabag/-/svg-badge.svg" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c5b645e0e29a4a19db81a9b1dec49ad8ca846f5536107f04b8ce987e4c39333d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f77616c6c616261672f77616c6c61626167"><img src="https://camo.githubusercontent.com/c5b645e0e29a4a19db81a9b1dec49ad8ca846f5536107f04b8ce987e4c39333d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f77616c6c616261672f77616c6c61626167" alt="执照" data-canonical-src="https://img.shields.io/github/license/wallabag/wallabag" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wallabag 是一个网络应用程序，允许您保存网页以供以后阅读。</font><font style="vertical-align: inherit;">单击、保存并在需要时阅读。</font><font style="vertical-align: inherit;">它提取内容，这样您就不会被弹出窗口和 cie 分散注意力。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将其安装在您自己的服务器上，也可以在</font></font><a href="https://wallabag.it" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wallabag.it</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上创建一个帐户。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/wallabag/wallabag/blob/master/.github/images/screenshot.png"><img src="/wallabag/wallabag/raw/master/.github/images/screenshot.png" alt="瓦拉巴格" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站：</font></font><a href="https://wallabag.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wallabag.org</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android 应用程序：</font></font><a href="https://github.com/wallabag/android-app"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wallabag/android-app</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS 应用程序：</font></font><a href="https://github.com/wallabag/ios-app"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wallabag/ios-app</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器扩展: </font></font><a href="https://github.com/wallabag/wallabagger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wallabag/wallabagger</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GNOME (Linux) 应用程序：</font></font><a href="https://gitlab.gnome.org/World/read-it-later" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">稍后阅读</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（不由该项目维护）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里列出了有关 wallabag 生态系统的所有资源：</font></font><a href="https://github.com/wallabag/wallabag/wiki/wallabag-ecosystem"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https ://github.com/wallabag/wallabag/wiki/wallabag-ecosystem</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该文档可从</font></font><a href="https://doc.wallabag.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://doc.wallabag.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过其专用存储库为其做出贡献，此处提供：https: </font></font><a href="https://github.com/wallabag/doc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/wallabag/doc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请阅读</font></font><a href="https://doc.wallabag.org/en/admin/installation/requirements.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档以了解 wallabag 要求</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后你可以通过执行以下命令来安装wallabag：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/wallabag/wallabag.git
+<span class="pl-c1">cd</span> wallabag <span class="pl-k">&amp;&amp;</span> make install</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/wallabag/wallabag.git
+cd wallabag &amp;&amp; make install" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在，</font></font><a href="https://doc.wallabag.org/en/admin/installation/virtualhosts.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置虚拟主机</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以使用您的 wallabag。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-other-methods" class="anchor" aria-hidden="true" tabindex="-1" href="#other-methods"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他方法</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他安装方法</font><font style="vertical-align: inherit;">请参考</font></font><a href="https://doc.wallabag.org/en/admin/installation/installation.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装文档。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-translation" class="anchor" aria-hidden="true" tabindex="-1" href="#translation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">翻译</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目使用</font></font><a href="https://weblate.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Weblate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行翻译。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请随时帮助我们</font></font><a href="https://hosted.weblate.org/projects/wallabag/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">翻译 wallabag</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要了解更多有关开发 wallabag 的信息，请参阅</font></font><a href="/wallabag/wallabag/blob/master/.github/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容提取依赖于</font></font><a href="https://github.com/j0k3r/graby"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Graby</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://github.com/j0k3r/php-readability"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">php-readability</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/fivefilters/ftr-site-config"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ftr-site-config</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权所有 © 2013 年至今 Nicolas Lœuillet </font></font><a href="mailto:nicolas@loeuillet.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nicolas@loeuillet.org</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这项工作是免费的。</font><font style="vertical-align: inherit;">您可以根据 MIT 许可证的条款重新分发和/或修改它。</font><font style="vertical-align: inherit;">有关更多详细信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="/wallabag/wallabag/blob/master/COPYING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">COPYING.md文件。</font></font></a><font style="vertical-align: inherit;"></font></p>
+</article></div>
